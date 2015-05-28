@@ -1,0 +1,29 @@
++--------+---+------+----+-----+
+| Name   | S | _   | i   | v   |
++--------+---+------+----+-----+
+| 0i     | O | _hH | _rA | vhH |
+| 1i     | A | _rS | _rB | vrS |
+| 2i     | B | _rT | _rC | vrT |
+| 3i     | C | _rV | _rD | vrV |
+| 4i     | D | _rY | _rR | vrY |
+| wi     | S | _rK | irS | vrK |
+| wi1    | K | ilL | irK | vrK |
+| wii    | T | _rQ | irT | vrQ |
+| wii1   | Q | irU | irQ | vrQ |
+| wii2   | U | ilL |     |     |
+| wiii   | V | _rM | irV | vrM |
+| wiii1  | M | irW | irM | vrM |
+| wiii2  | W | irX |     |     |
+| wiii3  | X | ilL |     |     |
+| wiiii  | Y | _rN | irY | vrN |
+| wiiii1 | N | irG | irN | vrN |
+| wiiii2 | G | irJ |     |     |
+| wiiii3 | J | irI |     |     |
+| wiiii4 | I | ilL |     |     |
+| wv     | R | _rZ | irR | vrR |
+| wv1    | Z | vlL | irZ | vrZ |
+| l1     | L | _lP | ilL | vlL |
+| l2     | P | _rO | ilL | vlL |
++--------+---+-----+-----+-----+
+
+./UniTM -s0 O -t0 _ -s O__rOi_rAvvhH -s A__rSi_rBvvrS -s B__rTi_rCvvrT -s C__rVi_rDvvrV -s D__rYi_rRvvrY -s S__rKiirSvvrK -s K_ilLiirKvvrK -s T__rQiirTvvrQ -s Q_irUiirQvvrQ -s U_ilL -s V__rMiirVvvrM -s M_irWiirMvvrM -s W_irX -s X_ilL -s Y__rNiirYvvrN -s N_irGiirNvvrN -s G_irJ -s J_irI -s I_ilL -s R__rZiirRvvrR -s Z_vlLiirZvvrZ -s L__lPiilLvvlL -s P__rOiilLvvlL -lt 1 -t iiiiiiiii
