@@ -1,2 +1,2 @@
 # UniTM
-A TuringMachine Simulator written in C++
+A TuringMachine Simulator written in shitty C++
