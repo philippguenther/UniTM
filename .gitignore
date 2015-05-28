@@ -28,5 +28,6 @@
 *.app
 
 # Xcode
-build
-*.xcodeproj
+.DS_Store
+build/
+xcuserdata
