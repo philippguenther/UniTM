@@ -27,6 +27,6 @@
 *.out
 *.app
 
-# Xcode build
+# Xcode
 build
-
+*.xcodeproj
